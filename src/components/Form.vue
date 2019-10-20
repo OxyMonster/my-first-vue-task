@@ -9,6 +9,7 @@
      </div>
      <input type="text" 
             class="email" 
+            autocomplete="off"
             placeholder="Email..." 
             v-model="email"
             name="email"
@@ -19,6 +20,7 @@
       </transition>
      <input type="text" 
             class="numbers" 
+            autocomplete="off"
             placeholder="Number..."
             name="number"
             v-model="number"
@@ -116,7 +118,7 @@ export default {
 
 /* @import "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";  */
 body {
-    font-family: 'Montserrat', sans-serif;
+    /* font-family: 'Montserrat', sans-serif; */
 
 }
 .form-content {

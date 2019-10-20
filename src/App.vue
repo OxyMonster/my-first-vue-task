@@ -20,9 +20,8 @@ export default {
 
 body {
   background-color: #1A1C37;
-    font-family: 'Montserrat', sans-serif;
-
-
+  font-family: 'Montserrat', sans-serif;
+  background-image: url("./assets/img/stars.svg");
   display: grid;
   grid-template-rows: auto;
   justify-items: center;
