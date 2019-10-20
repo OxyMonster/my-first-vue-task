@@ -30,9 +30,7 @@ body {
 }
 #app {
   width: 50%; 
- -webkit-box-shadow: 0px 1px 5px 1px rgba(0,0,0,1);
--moz-box-shadow: 0px 1px 5px 1px rgba(0,0,0,1);
-box-shadow: 0px 1px 5px 1px rgba(0,0,0,1);
+  margin-top: 2%;
 
 
 }

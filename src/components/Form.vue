@@ -4,6 +4,8 @@
    <form @submit.prevent="submitForm()">
      <div class="form-img">
      <img src="../assets/img/cute.svg" alt="">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,400italic|Material+Icons">
+
      </div>
      <input type="text" 
             class="email" 
@@ -35,7 +37,11 @@
      </select>
 
      <div class="" style="display: flex; justify-content: center; margin-top: 30px;">
-          <button type="submit">Submit</button>
+          <div class="">
+          <md-button class="md-raised" type = "submit">submit</md-button>
+          </div>
+
+
      </div>
       <div class="" style="display: flex; justify-content: center;">
           <img v-if="formSubmited && formIsValid" src="../assets/img/loader.svg">
@@ -117,6 +123,9 @@ body {
   display: block;
   background-color: #222642; 
   border-top: 5px solid #88CD96;
+  -webkit-box-shadow: 0px 1px 5px 1px rgba(0,0,0,1);
+-moz-box-shadow: 0px 1px 5px 1px rgba(0,0,0,1);
+  box-shadow: 0px 1px 5px 1px rgba(0,0,0,1);
 }
 
 .form-img {
@@ -128,11 +137,12 @@ img {
   /* margin-top: 15px; */
   margin: 15px 0 15px 0;
   width: 150px;
-  height: 150px;
+  /* height: 150px; */
 }
 
 input,select {
     width: calc(100% - 40px);
+    /* width: 100%; */
     border: 0;
     padding: 20px;
     font-size: 1.3em;
@@ -141,7 +151,7 @@ input,select {
     /* margin-bottom: 15px; */
   }
   select { 
-    width: 100%;
+    /* width: 100%; */
   }
   select:focus {
     outline: 1px solid #88CD96;
@@ -153,19 +163,25 @@ input,select {
   }
 
   button {
-    background-color: #CB4382; 
-    border: 1px solid #CB4382;
-    border-radius: 50px;
+    background-color: rgb(212, 44, 122); 
+    border: 1px solid rgb(212, 44, 122);
+    /* border-radius: 50px; */
     color: #ffff;
     width: 205px; 
     height: 55px;
-    font-size: 20px; 
+    font-size: 18px; 
 
+  }
+/* 
+  button:hover {
+    background-color: rgb(185, 84, 133); 
+    border-color: #88CD96;
+    transition: .4s;
   }
 
   button:focus {
     outline: none; 
-  }
+  }  */
 
   .alert {
     background: #fdf2ce;
