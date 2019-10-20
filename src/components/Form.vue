@@ -142,7 +142,7 @@ img {
 
 input,select {
     width: calc(100% - 40px);
-    /* width: 100%; */
+    width: 100%;
     border: 0;
     padding: 20px;
     font-size: 1.3em;
@@ -151,7 +151,7 @@ input,select {
     /* margin-bottom: 15px; */
   }
   select { 
-    /* width: 100%; */
+    width: 100%;
   }
   select:focus {
     outline: 1px solid #88CD96;
