@@ -1,4 +1,4 @@
-# aviorco-task
+# Vue-task
 
 ## Project setup
 ```
