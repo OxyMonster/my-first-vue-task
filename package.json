@@ -10,7 +10,7 @@
   "dependencies": {
     "@vue/cli": "^4.0.4",
     "@vue/cli-service-global": "^4.0.4",
-    "axios": "^0.19.0",
+    "axios": "^0.21.1",
     "core-js": "^3.1.2",
     "vee-validate": "^2.2.15",
     "vue": "^2.6.10",
